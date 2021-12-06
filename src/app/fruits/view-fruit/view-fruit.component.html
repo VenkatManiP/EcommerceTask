@@ -1,0 +1,41 @@
+<!-- <section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let Fruit of viewlist">
+                <div class="card-body p-4 border ">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Fruit Name : {{Fruit.p_name}}</h5>
+                        <p>Cost : {{Fruit.p_cost}}$ </p>
+                        <p>Availability : {{Fruit.p_availability}}</p>
+                        <p> {{Fruit.p_details}}</p>
+                        <a class="btn btn-outline-primary mt-auto" href="fruits/delete-Fruits/{{Fruit.p_id}}"> Delete </a> &nbsp;
+                        <a class="btn btn-outline-dark mt-auto" href="fruits/update-Fruits/{{Fruit.p_id}}"> Update </a>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" [src]="viewlist.p_image" alt="no image" />
+                    <div class="card-body p-4 border ">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Fruit Name : {{viewlist.p_name}}</h5>
+                            <p>Cost : {{viewlist.p_cost}}$ </p>
+                            <p>Availability : {{viewlist.p_availability}}</p>
+                            <p> {{viewlist.p_details}}</p>
+                            <a class="btn btn-outline-primary mt-auto" href="fruits/update-Fruits/{{viewlist.p_id}}"> update </a>
+                            <a class="btn btn-outline-primary mt-auto" href="fruits/delete-Fruits/{{viewlist.p_id}}"> delete </a>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</section>
+            
