@@ -34,5 +34,15 @@
       "p_category": "Premium",
       "p_image": "http://localhost:4200/assets/Images/orange.jfif"
     }
+  ],
+  "Catagorie": [
+    {
+      "p_category": "Premium",
+      "name": "Premium"
+    },
+    {
+      "p_category": "Tamilnadu",
+      "name": "Tamilnadu"
+    }
   ]
 }

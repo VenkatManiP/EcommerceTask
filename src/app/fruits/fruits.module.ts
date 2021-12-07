@@ -8,6 +8,7 @@ import { ViewFruitComponent } from './view-fruit/view-fruit.component';
 import { CreateFruitComponent } from './create-fruit/create-fruit.component';
 import { UpdateFruitComponent } from './update-fruit/update-fruit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ViewfruitbycategoryComponent } from './viewfruitbycategory/viewfruitbycategory.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ViewFruitComponent,
     CreateFruitComponent,
     UpdateFruitComponent,
+    ViewfruitbycategoryComponent,
   ],
   imports: [
     CommonModule,

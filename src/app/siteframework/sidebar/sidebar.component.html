@@ -7,4 +7,7 @@
     <div class="list-group-item">
         <a href="fruits/create-Fruits">Create Fruits</a>
     </div>
+    <div class="list-group-item" *ngFor="let CATEGORY of CatagorieList">
+        <a href="fruits/view-Fruitsbycategory/{{CATEGORY.p_category}}">{{CATEGORY.p_category}}</a>
+    </div>
 </div>

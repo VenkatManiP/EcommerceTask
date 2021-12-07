@@ -36,5 +36,17 @@ export class FruitsService {
     const _url ="http://localhost:3000/fruits/";
     return this._http.post(_url,ProductBody);
   }
+
+  getViewByCategory(catId:any)
+  {
+    const _url ="http://localhost:3000/fruits?p_category="+catId;
+    return this._http.get(_url);
+  }
+
+  getCatagorie()
+  {
+    const _url="http://localhost:3000/Catagorie";
+    return this._http.get(_url);
+  }
 }
 

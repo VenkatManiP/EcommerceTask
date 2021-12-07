@@ -5,12 +5,14 @@ import { FruitsComponent } from './fruits.component';
 import { UpdateFruitComponent } from './update-fruit/update-fruit.component';
 import { ViewFruitComponent } from './view-fruit/view-fruit.component';
 import { ViewallFruitsComponent } from './viewall-fruits/viewall-fruits.component';
+import { ViewfruitbycategoryComponent } from './viewfruitbycategory/viewfruitbycategory.component';
 
 const routes: Routes = [
   { path: '', component: ViewallFruitsComponent },
   { path: 'create-Fruits', component: CreateFruitComponent },
   { path: 'update-Fruits/:id', component: UpdateFruitComponent },
   { path: 'view-Fruits/:id', component: ViewFruitComponent },
+  { path: 'view-Fruitsbycategory/:id', component: ViewfruitbycategoryComponent },
   { path: 'viewallFruits', component:ViewallFruitsComponent },
 ];
 
