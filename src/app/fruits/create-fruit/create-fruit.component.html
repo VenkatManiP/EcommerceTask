@@ -1,1 +1,18 @@
-<p>create-fruit works!</p>
+
+<form #ctd="ngForm" (submit)="createdfile(ctd)">
+    p_name:<br>
+    <input type="text" name="p_name" id="p_name" ngModel><br><br>
+    p_id:<br>
+    <input type="text" name="p_id" id="p_id" ngModel><br><br>
+    p_cost:<br>
+    <input type="text" name="p_cost" id="p_cost" ngModel><br><br>
+    p_availability:<br>
+    <input type="text" name="p_availability" id="p_availability" ngModel><br><br>
+    p_details:<br>
+    <input type="text" name="p_details" id="p_details" ngModel><br><br>
+    p_category:<br>
+    <input type="text" name="p_category" id="p_category" ngModel><br><br>
+    p_image:<br>
+    <input type="text" name="Price" id="Price" ngModel><br><br>
+    <button type="submit">Submit</button>
+</form>

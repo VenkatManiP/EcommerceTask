@@ -17,6 +17,8 @@ export class ViewFruitComponent implements OnInit {
 
     this._active.params.subscribe(data => {
       this.view=data.id; 
+      console.log(data.id);
+      
     });
 
     this._srvc.getViewfruit(this.view).subscribe(details =>{

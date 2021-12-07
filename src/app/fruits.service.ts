@@ -16,7 +16,7 @@ export class FruitsService {
 
   getViewfruit(P_Id:any)
   {
-    const _url ="http://localhost:3000/fruits/"+P_Id;
+    const _url ="http://localhost:3000/fruits?p_id="+P_Id;
     return this._http.get(_url);
   }
 
